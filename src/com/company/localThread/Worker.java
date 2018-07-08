@@ -2,13 +2,11 @@ package com.company.localThread;
 
 import org.junit.Test;
 
-import java.util.HashMap;
 
 /**
  * Created by sachin on 1/6/18.
  */
 public class Worker {
-
 
     @Test
     public void testTwoThread(){

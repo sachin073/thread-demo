@@ -14,12 +14,12 @@ public class Getters implements Runnable{
     public void run() {
         int old=0;
         while (builder.counter > -1 && builder.counter < 999 ){
+//            System.out.println(builder.counter);
             if (builder.counter != old) {
                 System.out.println(builder.counter);
                 old = builder.counter;
             }
         }
-
 
     }
 }
